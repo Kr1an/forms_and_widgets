@@ -1,0 +1,24 @@
+@import url('./libs/index.css');
+@import url('./fonts/index.css');
+@import url('./components/index.css');
+@import url('./widgets/index.css');
+
+body {
+    padding: 55px 54px;
+    background: #d9d9d9;
+}
+.keeper {
+    height: 700px;
+}
+.statistic-keeper {
+    padding-top: 0.5px;
+    padding-left: 1px;
+}
+.messager-keeper {
+    padding-top: 0px;
+}
+.place-description-keeper {
+    padding-top: 0.5px;
+}
+
+

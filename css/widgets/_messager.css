@@ -1,0 +1,22 @@
+.messager {
+    width: 380px;
+    height: 486.5px;
+    padding-top: 24.5px;
+}
+.container {
+    width: 100%;
+    height: 700px;
+    padding: 0 25.5px;
+    padding-right: 26.2px;
+}
+.input-holder {
+    position: relative;
+    margin-bottom: 22.9px;
+}
+
+.input-holder.input-holder--textarea {
+    margin-bottom: 20.5px;
+}
+.messager .btn {
+    float:right;
+}

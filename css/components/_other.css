@@ -1,0 +1,29 @@
+.email--element {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    border-radius: 1px;
+    background-color:  #404a58;
+    width: 188px;
+    height: 37px;
+    color: white;
+    font-weight: bold;
+    padding: 8.5px 9.6px;
+    margin: 4px;
+    font-size: 14.5px;
+    letter-spacing: 0.001px
+}
+.email--element p {
+    display: inline;
+    top: 10px;
+}
+p.plus {
+    display: inline-block;
+    transform: rotate(45deg) scale(1.3);
+    position: relative;
+    bottom: 13.55px;
+    left: 6px;
+    margin: 0;
+    top: 5.5px;
+    display: inline-block;
+}

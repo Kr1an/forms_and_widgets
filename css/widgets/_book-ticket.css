@@ -1,0 +1,122 @@
+.book-ticket {
+    height: 626px;
+    width: 346px;
+}
+.book-ticket * {
+    overflow: visible!important;
+}
+.book-ticket .preview {
+    height: 184.4px;
+    position: relative;
+    overflow: hidden!important;
+}
+.book-ticket .preview img {    
+    position: relative;
+    right: 67px;
+    bottom: 17px;
+    filter: contrast(80%);
+}
+.book-ticket .preview .description {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.book-ticket form {
+    background: white;
+    height: 441.4px;
+    padding-top: 11px;
+}
+.book-ticket form .input-holder--checkbox {
+    height: 50px;
+    padding-left: 7px;
+    margin-bottom: -4px;
+}
+.book-ticket form .input-holder--dropdown {
+    display: inline-block;
+    width: 49%;
+    position: relative;
+    top: 1px;
+    margin-bottom: 40px;
+    
+}
+.book-ticket form .input-holder--dropdown input {
+    font-size: 19px;
+    padding-left: 14px;
+}
+.book-ticket form .input-holder--dropdown .icon.icon--dropdown {
+    right: 4px;
+    
+}
+.book-ticket form :nth-last-child(2) {
+    padding-left: 8px;
+}
+.book-ticket form :nth-last-child(3) {
+    padding-right: 6px;
+}
+.book-ticket form .input-holder--submit {
+    height: 95px;
+}
+.input-holder .input-title {
+    font-weight: bold;
+    font-size: 14.5px;
+    margin-bottom:7px;
+    position:relative;
+    right:1px;
+    top:1px;
+    letter-spacing: 0.1px;
+    color:  #666666;
+}
+.book-ticket input {
+    padding-top: 5px;
+    padding-left: 13px;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+}
+.book-ticket .input-holder {
+    margin-bottom:22px
+}
+.input-holder.input-holder--checkbox {
+    padding-top: 8.5px;
+}
+.book-ticket .input-holder:nth-child(2) {
+    margin-bottom:0px
+}
+
+.description {
+    padding: 15px 19px;
+
+}
+.description .name {
+    font-size: 25px;
+    margin: 0;
+    font-weight: bold;
+    font-family: Gotham-bold;
+    margin-bottom: -10px;
+    margin-left: 4px;
+    
+}
+.description .place {
+    font-size: 14px;
+    display: inline;
+    font-family: Gotham;
+    font-weight: bold;
+    letter-spacing: 0.1px;
+    text-transform: capitalize;
+   
+}
+.description .icon.icon--place-small {
+    margin: 0;
+    padding: 0;
+    height: 25px;
+    position: relative;
+    right: 3px;
+    top: 5px;
+}
+.book-ticket .btn {
+    width: 100%;
+    height: 59px;
+    padding-bottom: 5px;
+    padding-left: 24px;
+}

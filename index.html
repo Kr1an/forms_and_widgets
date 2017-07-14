@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+     
+    <div class="keeper calendar-keeper">
+        <section 
+            aria-labelledby="describe-widget-label--calendar skip-widget-label--calendar" 
+            class="widget widget--vertical calendar" 
+            tabindex="0">
+            <section class="aria-support">
+                <label id="skip-widget-label--calendar" role="tooltip">CTRL+S to skip widget.</label>
+                <label id="describe-widget-label--calendar" role="tooltip">Calendar Widget. Use it to manage events.</label> 
+                <label id="month-detail-label--calendar" role="tooltip">Calendar Detail information. Press Tab to go to next day. Press Shift+Tab to go to previous day. Enter needed date and press Enter, to go to specific day.</label>
+                <label id="table-date-suffix--calendar" role="tooltip">Of May.</label>
+                <label id="table-date-current--calendar" role="tooltip">It is Current Day.</label>
+                <label id="table-date-event--calendar" role="tooltip">Some Event Happened this day.</label>
+            </section> <!-- End of section.aria-support -->
+            <nav class="navbar">
+                <div class="container">
+                     <div role="iternal-link">
+                        <a title="To Next Month. Current month is May 2014" id="next-button" href="#" class="controll controll--next"><span class="icon icon--arraw"></span></a>
+                    </div>
+                    <div role="iternal-link">
+                        <a title="To Previous Month. Current month is May 2014" id="prev-button" href="#" class="controll controll--prev"><span class="icon icon--arraw"></span></a>
+                    </div>
+                    <p class="title">May 2014</p>
+                </div>
+            </nav> <!-- End of nav.navbar -->
+            <section class="month-detail">
+                <div class="container">
+                    <table tabindex="0" aria-labelledby="month-detail-label--calendar skip-widget-label--calendar">
+                        <caption></caption>
+                        <thead>
+                            <tr class="header-row">
+                                <th><p class="cell cell--header">Sun</p></th>
+                                <th><p class="cell cell--header">Mon</p></th>
+                                <th><p class="cell cell--header">Tue</p></th>
+                                <th><p class="cell cell--header">Wed</p></th>
+                                <th><p class="cell cell--header">Thu</p></th>
+                                <th><p class="cell cell--header">Fri</p></th>
+                                <th><p class="cell cell--header">Sat</p></th>
+                            </tr> <!-- End of tr.header-row-->
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td aria-labelledby="date-29" tabindex="0"><p class="cell cell--no-access"><label id="date-29">29</label></p></td>
+                                <td aria-labelledby="date-30" tabindex="0"><p class="cell cell--no-access"><label id="date-30">30</label></p></td>
+                                <td aria-labelledby="date-1 table-date-suffix--calendar" tabindex="0"><p class="cell">                  <label id="date-1">1</label></p></td>
+                                <td aria-labelledby="date-2 table-date-suffix--calendar" tabindex="0"><p class="cell">                  <label id="date-2">2</label></p></td>
+                                <td aria-labelledby="date-3 table-date-suffix--calendar table-date-current--calendar" tabindex="0"><p class="cell cell--current-day"><label id="date-3">3</label></p></td>
+                                <td aria-labelledby="date-4 table-date-suffix--calendar" tabindex="0"><p class="cell">                  <label id="date-4">4</label></p></td>
+                                <td aria-labelledby="date-5 table-date-suffix--calendar" tabindex="0"><p class="cell">                  <label id="date-5">5</label></p></td>
+                            </tr>
+                            <tr>
+                                <td aria-labelledby="date-6 table-date-suffix--calendar" tabindex="0"><p class="cell">                  <label id="date-6">6</label></p></td>
+                                <td aria-labelledby="date-7 table-date-suffix--calendar table-date-event--calendar" tabindex="0"><p class="cell cell--with-event"> <label id="date-7">7</label></p></td>
+                                <td aria-labelledby="date-8 table-date-suffix--calendar" tabindex="0"><p class="cell">                  <label id="date-8">8</label></p></td>
+                                <td aria-labelledby="date-9 table-date-suffix--calendar" tabindex="0"><p class="cell">                  <label id="date-9">9</label></p></td>
+                                <td aria-labelledby="date-10 table-date-suffix--calendar" tabindex="0"><p class="cell">                 <label id="date-10">10</label></p></td>
+                                <td aria-labelledby="date-11 table-date-suffix--calendar" tabindex="0"><p class="cell">                 <label id="date-11">11</label></p></td>
+                                <td aria-labelledby="date-12 table-date-suffix--calendar" tabindex="0"><p class="cell">                 <label id="date-12">12</label></p></td>
+                            </tr>
+                            <tr>
+                                <td aria-labelledby="date-13 table-date-suffix--calendar" tabindex="0"><p class="cell">                 <label id="date-13">12</label></p></td>
+                                <td aria-labelledby="date-14 table-date-suffix--calendar" tabindex="0"><p class="cell">                 <label id="date-14">14</label></p></td>
+                                <td aria-labelledby="date-15 table-date-suffix--calendar" tabindex="0"><p class="cell">                 <label id="date-15">15</label></p></td>
+                                <td aria-labelledby="date-16 table-date-suffix--calendar" tabindex="0"><p class="cell">                 <label id="date-16">16</label></p></td>
+                                <td aria-labelledby="date-17 table-date-suffix--calendar" tabindex="0"><p class="cell">                 <label id="date-17">17</label></p></td>
+                                <td aria-labelledby="date-18 table-date-suffix--calendar" tabindex="0"><p class="cell">                 <label id="date-18">18</label></p></td>
+                                <td aria-labelledby="date-19 table-date-suffix--calendar" tabindex="0"><p class="cell">                 <label id="date-19">19</label></p></td>
+                            </tr>
+                            <tr>
+                                <td aria-labelledby="date-20 table-date-suffix--calendar" tabindex="0"><p class="cell">                 <label id="date-20">20</label></p></td>
+                                <td aria-labelledby="date-21 table-date-suffix--calendar" tabindex="0"><p class="cell">                 <label id="date-21">21</label></p></td>
+                                <td aria-labelledby="date-22 table-date-suffix--calendar" tabindex="0"><p class="cell">                 <label id="date-22">22</label></p></td>
+                                <td aria-labelledby="date-23 table-date-suffix--calendar table-date-event--calendar" tabindex="0"><p class="cell cell--with-event"><label id="date-23">23</label></p></td>
+                                <td aria-labelledby="date-24 table-date-suffix--calendar" tabindex="0"><p class="cell">                 <label id="date-24">24</label></p></td>
+                                <td aria-labelledby="date-25 table-date-suffix--calendar" tabindex="0"><p class="cell">                 <label id="date-25">25</label></p></td>
+                                <td aria-labelledby="date-26 table-date-suffix--calendar" tabindex="0"><p class="cell">                 <label id="date-26">26</label></p></td>
+                            </tr>
+                            <tr>
+                                <td aria-labelledby="date-27 table-date-suffix--calendar" tabindex="0"><p class="cell">                 <label id="date-27">27</label></p></td>
+                                <td aria-labelledby="date-28 table-date-suffix--calendar" tabindex="0"><p class="cell">                 <label id="date-28">28</label></p></td>
+                                <td aria-labelledby="date-29 table-date-suffix--calendar" tabindex="0"><p class="cell">                 <label id="date-29">29</label></p></td>
+                                <td aria-labelledby="date-30 table-date-suffix--calendar" tabindex="0"><p class="cell">                 <label id="date-30">30</label></p></td>
+                                <td aria-labelledby="date-1 " tabindex="0"><p class="cell cell--no-access">                             <label id="date-1">1</label></p></td>
+                                <td aria-labelledby="date-2 " tabindex="0"><p class="cell cell--no-access">                             <label id="date-2">2</label></p></td>
+                                <td aria-labelledby="date-3 " tabindex="0"><p class="cell cell--no-access">                             <label id="date-3">3</label></p></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section> <!-- End of section.month-detail -->
+            <footer class="footer">
+                <div class="container"><a role="button" href="#" class="btn">add event</a></div>
+            </footer> <!-- End of footer.footer -->
+
+        </section> <!-- End of section.calendar-->
+    </div>
+
+    <div class="keeper statistic-keeper">
+        <section aria-labelledby="describe-widget-label--statistic skip-widget-label--statistic legend" tabindex="0" class="widget widget--horizontal statistic">
+            <section class="aria-support">
+                <label id="skip-widget-label--statistic" role="tooltip">CTRL+S to skip widget. Tab to show details.</label>
+                <label id="describe-widget-label--statistic" role="tooltip">Statistic Widget. Graphical Data Chart.</label>
+                <label id="of-label--statistic" role="tooltip">Of 40.</label>
+                <label id="legend" role="tooltip">Charts shows number of visitors per week days</label>
+                
+            </section> <!-- End of section.aria-support -->
+            <div class="statistic-background">
+                <p class="chart-hor-line">40</p>
+                <p class="chart-hor-line">30</p>
+                <p class="chart-hor-line">20</p>
+                <p class="chart-hor-line">0</p>
+            </div>
+            <div class="chart">
+                <div tabindex="0" aria-labelledby="data-17 of-label--statistic mon" class="column tooltip" style="height: 49px"><span class="tooltiptext"> <label id="data-17">17</label></span></div>
+                <div tabindex="0" aria-labelledby="data-19 of-label--statistic true" class="column tooltip" style="height: 62px"><span class="tooltiptext"> <label id="data-19">19</label></span></div>
+                <div tabindex="0" aria-labelledby="data-26 of-label--statistic wed" class="column tooltip" style="height: 119px"><span class="tooltiptext"><label id="data-26">26</label></span></div>
+                <div tabindex="0" aria-labelledby="data-33 of-label--statisti thuc" class="column tooltip" style="height: 158px"><span class="tooltiptext"><label id="data-33">33</label></span></div>
+                <div tabindex="0" aria-labelledby="data-28 of-label--statistic fri" class="column tooltip" style="height: 129px"><span class="tooltiptext"><label id="data-28">28</label></span></div>
+                <div tabindex="0" aria-labelledby="data-34 of-label--statistic sat" class="column tooltip" style="height: 169px"><span class="tooltiptext"><label id="data-34">34</label></span></div>
+                <div tabindex="0" aria-labelledby="data-30 of-label--statistic sun" class="column tooltip" style="height: 143px"><span class="tooltiptext"><label id="data-30">30</label></span></div>
+            </div>
+            <div class="titles">
+                <p class="title"><label id="mon">Mon</label></p>
+                <p class="title"><label id="tues">Tues</label></p>
+                <p class="title"><label id="wed">Wed</label></p>
+                <p class="title"><label id="thu">Thu</label></p>
+                <p class="title"><label id="fri">Fri</label></p>
+                <p class="title"><label id="sat">Sat</label></p>
+                <p class="title"><label id="sun">Sun</label></p>
+            </div>
+        </section> <!-- End of section.statistic-->
+    </div>
+
+    <div class="keeper book-ticket-keeper">
+        <section tabindex="0" aria-labelledby="describe-widget-label--ticket skip-widget-label--ticket" class="widget widget--vertical book-ticket">
+            <section class="aria-support">
+                <label id="skip-widget-label--ticket" role="tooltip">CTRL+S to skip widget.</label>
+                <label id="describe-widget-label--ticket" role="tooltip">Ticket Widget. Book place in Relais Hotel in Paris.</label> 
+                <label id="month-detail-label--calendar" role="tooltip">Press Tab to go to start filling forms.</label>
+                <label id="check-in-data" role="tooltip">Press Enter to Choose Check in data</label>
+                <label id="check-out-data" role="tooltip">Press Enter to Choose Check out data</label>
+                <label id="checkbox-dates" role="tooltip">Flexible Date.</label>
+                <label id="adult-count" role="tooltip">Adult count dropdown.</label>
+                <label id="child-count" role="tooltip">Children count dropdown.</label>
+            </section> <!-- End of section.aria-support -->
+            <header class="preview">
+                <div class="container">
+                    <figure> 
+                        <img src="./img/hotel.png" alt="">
+                        <figcaption>
+                            <section class="description">
+                                <div tabindex="0">
+                                    <p class="name">Hotel Relais</p>
+                                    <span class="icon icon--place-small"></span><p class="place">Paris, france</p>
+                                </div>
+                            </section>
+                        </figcaption>
+                    </figure>
+                </div>
+            </header> <!-- End of header.preview-->
+
+            <form action="#" method="post">
+                <div class="container">
+
+                    <div class="input-holder">
+                        <p class="input-title">Check in</p>
+                        <input tabindex="-1" type="text" name="check-in" value="9 July, 2016">
+                        <span aria-labelledby="check-in-data" tabindex="0" role="dropdown" class="icon icon--calendar"></span>
+                    </div>
+
+                    <div class="input-holder">
+                        <p class="input-title">Check out</p>
+                        <input tabindex="-1" type="text" name="check-in" value="16 July, 2016">
+                        <span aria-labelledby="check-out-data" tabindex="0" role="dropdown" class="icon icon--calendar"></span>
+                    </div>
+
+                    <div class="input-holder input-holder--checkbox">
+                        <input aria-labelledby="checkbox-dates" type="checkbox" name="flexible-date" checked=true>
+                        <label class="input-title">Flexible dates</label>
+                    </div>
+                    <div class="input-holder input-holder--dropdown">
+                        <p class="input-title">Adults</p>
+                        <input tabindex="-1" type="text" name="adults-count" value="2">
+                        <span tabindex="0" aria-labelledby="adult-count" class="icon icon--dropdown fix-dropdown">
+                    </div>
+                    <div class="input-holder input-holder--dropdown">
+                        <p class="input-title">Children</p>
+                        <input tabindex="-1" type="text" name="children_count" value="1">
+                        <span tabindex="0" aria-labelledby="child-count" class="icon icon--dropdown">
+                    </div>
+                    <div class="input-holder input-holder--submit">
+                        <button class="btn" type="submit" value="Submit">
+                            <span class="icon icon--search"></span>search rooms
+                        </button>
+                    </div>
+                </div>
+            </form> <!-- End of form -->
+
+        </section> <!-- End of section.book-ticket -->
+    </div>
+
+    <div class="keeper messager-keeper">
+        <section tabindex="0" aria-labelledby="describe-widget-label--messager skip-widget-label--messager" class="widget widget--vertical messager">
+            <section class="aria-support">
+                <label id="skip-widget-label--messager" role="tooltip">CTRL+S to skip widget.</label>
+                <label id="describe-widget-label--messager" role="tooltip">Messager Widget. Enter Tab to fill the forms.</label> 
+                <label id="add-email" role="tooltip">Add email.</label>
+                <label id="child-count" role="tooltip">Children count dropdown.</label>
+            </section> <!-- End of section.aria-support -->
+
+            <form action="#" method="post">
+                <div class="container">
+                    <div class="input-holder">
+                        <div class="email--element"><p>rick.james@mail.com</p><p class="plus">+</p></div>
+                        <input tabindex="-1" type="text" name="subject" value="">
+                        <span tabindex="0" aria-labelledby="add-email" class="icon icon--add"></span>
+                    </div>
+
+                    <div class="input-holder">
+                        <input type="text" name="subject" placeholder="Subject">
+                        <span  tabindex="0" title="add file" class="icon icon--file-clip"></span>
+                    </div>
+
+                    <div class="input-holder input-holder--textarea">
+                        <textarea placeholder="Message"></textarea>
+                    </div>
+
+                    <button class="btn" type="submit" value="Submit">send</button>
+                </div>
+            </form> <!-- End of form -->
+
+        </section> <!-- End of section.messager-->
+    </div>
+
+    <div class="keeper place-description-keeper">
+        <section tabindex="0" aria-labelledby="describe-widget-label--place skip-widget-label--place" class="widget widget--horizontal  place-description">
+            <section class="aria-support">
+                <label id="skip-widget-label--place" role="tooltip">CTRL+S to skip widget. Tab to dive into</label>
+                <label id="describe-widget-label--place" role="tooltip">Place Description Widget.</label> 
+                <label id="add-email" role="tooltip">Add email.</label>
+                <label id="child-count" role="tooltip">Children count dropdown.</label>
+            </section> <!-- End of section.aria-support -->
+
+            <ul class="navbar">
+                <li tabindex="0" title="View description" class="navbar-item active"><span class="icon icon--view"></span></li>
+                <li tabindex="0" title="View location" class="navbar-item"><span class="icon icon--place"></span></li>
+                <li tabindex="0" title="Add to favorite" class="navbar-item"><span class="icon icon--star"></span></li>
+            </ul> <!-- End of section.place-description -->
+            <article class="description">
+                <h1 tabindex="0">My most favourite place in the world</h1>
+                <p tabindex="0"><strong>154</strong> Reviews</p>
+                <p tabindex="0">Lorem iosum dolor sit amet, consectetur adioiscing elit. Maecenas a pulvinar ipsum. Aliquam sit amet iaculis dolor. Vivamus sed diam sollicitudin.</p>
+                <a role="iternal-link" href="#" class="btn--read-more">Read more</a>
+            </article>
+            <figure>
+                <img src="./img/boat.png" alt="">
+                <figcaption class="stats">
+                    <section title="likes" tabindex="0" class="like-section">
+                        <span class="icon icon--comments"></span>752<p style="width: 1px; height: 1px;position:absolute">comments</p>
+                    </section>
+                    <section tabindex="0" class="like-section">
+                        <span class="icon icon--like"></span>2709<p style="width: 1px; height: 1px;position:absolute">likes</p>
+                    </section>
+                </figcaption>
+            </figure>
+        </section> <!-- End of section.description-->
+    </div>
+</body>
+</html>       

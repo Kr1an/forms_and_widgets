@@ -1,0 +1,109 @@
+.icon {
+    background: url('../../img/icons.png') no-repeat;
+    width: 24px;
+    height: 30px;
+    background-position: 1000px 1000px;
+    display:inline-block;
+}
+.place-description .icon--view {
+    background-position: -84px 0;
+    margin: 28px auto;
+    
+}
+
+.icon--star {
+    background-position: -54.999px 0;
+    margin: 28.3px auto;
+}
+
+.icon--place {
+    background-position: 4.2px 0;
+    margin: 24.3px auto
+}
+.icon--place-small {
+    background-position: -312.2px 0;
+    position: relative;
+    top: 10px;
+}
+.icon--comments {
+    background-position: -25px 0;
+    width: 30px;
+    margin-right: 19px; 
+    position: relative;
+    top: 11px;
+    left: 13px;
+}
+.icon--like {
+    background-position: -115px 0;
+    width: 30px;
+    margin-right: 10px; 
+    position: relative;
+    top: 13px;
+    left: 2px;
+}
+.icon--calendar {
+    background-position: 4.2px 0;
+    margin: 24.3px auto
+}
+.icon--dropdown {
+    background-position: 4.2px 0;
+    margin: 24.3px auto
+}
+.icon--add {
+    position: absolute;
+    right:6px;
+    top:-16px;
+    background-position: -145px 4px;
+    margin: 24.3px auto
+}
+.icon--file-clip {
+    position: absolute;
+    right:7px;
+    top:-16px;
+    background-position: -175px 5px;
+    margin: 24.3px auto
+}
+.icon--calendar{
+    position: absolute;
+    right:3px;
+    width: 40px;
+    height: 50px;
+    top: 3px;
+    background-position: -200px 0px;
+    margin: 24.3px auto
+}
+
+.icon--dropdown{
+    position: absolute;
+    right:0px;
+    width: 40px;
+    height: 50px;
+    top: 18px;
+    background-position: -245px 0px;
+    margin: 24.3px auto
+}
+.book-ticket form .icon.icon--dropdown.fix-dropdown {
+    right: 10px!important;
+}
+.icon--search{
+    margin: 0;
+    display: inline-block;
+    position: absolute;
+    right:208px;
+    width: 30px;
+    height: 50px;
+    top: 13px;
+    background-position: -290px 0px;
+}
+.icon--arraw{
+    margin: 0;
+    display: inline-block;
+    position: absolute;
+    width: 30px;
+    height: 50px;
+    top: 18px;
+    background-position: -340px 0px;
+}
+.controll--next span {
+    height: 30px;
+}

@@ -1,0 +1,114 @@
+.place-description {
+    background: lightgoldenrodyellow;
+    width: 792px;
+}
+.place-description .navbar, .description, figure {
+    display: inline-block;
+}
+.place-description .navbar {
+    width: 72px;
+    height: 100%;
+    background: lightcoral;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+}
+.place-description .navbar .navbar-item {
+    height: 33.333333%;
+    background: #42465a;
+}
+.place-description .navbar .navbar-item.active {
+    background: #fb6362;
+    border: none;
+}
+.place-description .navbar .navbar-item:last-of-type {
+    border: none;
+    border-top: .1px solid rgba(0,0,0,.5);
+    margin-top: -1.5px;
+    height: calc(33.333333% + 1.5px);
+}
+.place-description .description {
+    width: 357px;
+    height: 100%;
+    float:left;
+    padding: 13.8px 33.8px
+}
+.place-description .description h1 {
+    font-size: 21.3px;
+    letter-spacing: 0.15px;
+    width: 200px;
+    line-height: 30px;
+    color: #4d4d4d;
+}
+.place-description .description p:first-of-type {
+    color: #4d4d4d;
+    font-size: 14px;
+    position: relative;
+    bottom: 6px;
+    left: 2px;
+    letter-spacing: 0.7px;
+}
+.place-description .description p:last-of-type {
+    color: #999999;
+    font-size: 14px;
+    margin-top:25px; 
+    letter-spacing: 0.14px;
+    line-height: 24px;
+    padding-right: 4px;
+    font-weight: bold;
+    opacity: .8;
+}
+.place-description .description a {
+    color: #fb6362;
+    text-decoration: none;
+    font-size: 14.5px;
+    font-weight: bold;
+    position: relative;
+    top: 2px;
+    opacity: 0.8;
+}
+.place-description figure {
+    position: relative;
+    width: 363px;
+    height: 100%;
+    margin: 0px;
+    float: left;
+    background: lightcyan
+}
+.place-description figure img {
+    position: relative;
+    right: 431px;
+    bottom: 1px;
+    filter: opacity(0.9);
+}
+.place-description figure:before {
+    width: 0;
+    height: 0;
+    border: 25px solid white;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-right: 25px solid transparent;
+    position: absolute;
+    left: -4px;
+    top: 35px;
+    content: '';
+    z-index: 10;
+}
+.place-description figure .stats {
+    position: absolute;
+    bottom:0;
+    right: 0;
+    margin-right: 19.5px;
+    margin-bottom: 18px;
+    color: white;
+    font-weight: bold;
+    font-size: 16.4px;
+    letter-spacing: 0px;
+}
+.place-description figure .stats .like-section,.comment-section {
+    min-width: 90px;
+    display: inline-block;
+}
+.navbar-item {
+    padding: 19px 23px;
+}

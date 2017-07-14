@@ -1,0 +1,128 @@
+.calendar {
+    width: 346px;
+}
+.calendar .navbar {
+    height: 62px;
+    max-height: 62px;
+    background: #404a58;
+    position: relative;
+}
+.calendar .navbar .controll {
+   
+}
+.calendar .navbar .title {
+    text-align: center;
+}
+.navbar p.title {
+    color: white;
+    font-size: 18px;
+    position: relative;
+    left: 0.5px;
+    top: 4px;
+    font-weight: bold;
+
+}
+.calendar .navbar .controll {
+
+}
+.calendar .navbar .controll--prev {
+    float: left;
+}
+.calendar .navbar .controll--prev .icon--arraw {
+    transform: rotate(180deg);
+    top: -6px;
+    
+}
+
+.calendar .navbar .controll--next {
+    float: right;
+    margin-right: 26.5px;
+}
+
+.calendar .month-detail {
+    height: 270px;
+    padding-right: 5px;
+}
+
+.calendar .month-detail table {
+    width: 100%;
+    padding-top: 13px;
+    position: relative;
+    left: 2px;
+}
+.calendar .month-detail table tr {
+    width: 10px;
+}
+.calendar .month-detail table th {
+    font-size: 14px;
+
+}
+.calendar .month-detail table td, th {
+    text-align: center;
+    width: 14.285714%;
+    color: #666666;
+    font-weight: bold;
+    overflow: visible;
+}
+
+.calendar .month-detail table .cell {
+    line-height: 38.8px;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    z-index: -1;
+    overflow: visible;
+}
+.calendar .month-detail table .cell.cell--no-access {
+    color: #c5c5c5;
+}
+
+.calendar .footer {
+    height: 95px;
+    padding-top: 11px;
+}
+.calendar .footer .btn {
+    width: 102%;
+    display: inline-block;
+    position: relative;
+    right: 2.1px;
+    height: 59px;
+    text-decoration: none;
+    text-align: center;
+    padding-top:22px;
+    padding-right: 1px;
+    font-size: 16.3px;
+
+    color: white;
+    letter-spacing: 0.1px;
+    font-family: Gotham-bold;
+}
+
+
+
+.calendar .month-detail table .cell.cell--with-event {
+    color: #fb6362;
+    font-family: Gotham-bold;
+}
+
+.calendar .month-detail table .cell.cell--current-day {
+    color:white;
+    font-family: Gotham-bold;
+    position: relative;
+    z-index: 10;
+    
+}
+.calendar .month-detail table .cell.cell--current-day:after {
+    width: 37px;
+    height: 37px;
+    content: '';
+    position: absolute;
+    z-index: -1;
+    left: 0px;
+    top: 0px;
+    background:#fb6362;
+    border-radius: 100%;
+}
+
+
+
